@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lansdowne Law & Associates — Website
 
-## Getting Started
+This repository contains the source code for the **Lansdowne Law & Associates** website, a modern, responsive law firm site designed to feel professional, credible, and approachable.
 
-First, run the development server:
+The site emphasizes clarity, clean typography, and subtle motion to create a polished experience without distracting from content or trust-building.
+
+🔗 **Live site:**  
+https://lansdowne-law-associates-website.vercel.app/
+
+---
+
+## Overview
+
+The website was built to:
+- Present a strong, trustworthy brand for a law firm
+- Clearly communicate practice areas and firm positioning
+- Feel modern and premium without being flashy
+- Perform well across devices and screen sizes
+
+Subtle scroll-based animations and smooth interactions are used to enhance polish while maintaining accessibility and readability.
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Lightweight scroll-based effects (e.g. Framer Motion)
+- **Deployment:** Vercel
+
+---
+
+## Features
+
+- Responsive, mobile-first layout
+- Clean editorial typography
+- Subtle scroll-reveal animations for key sections
+- Optimized performance and accessibility
+- Modern component-based architecture
+
+---
+
+## Local Development
+
+To run the project locally:
 
 ```bash
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
