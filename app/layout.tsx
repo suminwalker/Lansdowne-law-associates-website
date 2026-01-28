@@ -20,6 +20,7 @@ const libreBaskerville = Libre_Baskerville({
 
 import { Header } from "@/components/layout/header"
 import { Footer } from "@/components/layout/footer"
+import { SmoothScroll } from "@/components/ui/smooth-scroll"
 
 export const metadata: Metadata = {
   title: "Lansdowne Law Associates | Annual Review",
@@ -36,11 +37,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${libreBaskerville.variable} antialiased flex flex-col min-h-screen font-sans`}
       >
-        <Header />
-        <main className="flex-1">
-          {children}
-        </main>
-        <Footer />
+        <SmoothScroll>
+          <Header />
+          <main className="flex-1">
+            {children}
+          </main>
+          <Footer />
+        </SmoothScroll>
       </body>
     </html>
   );
