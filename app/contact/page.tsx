@@ -7,9 +7,48 @@ import { Label } from "@/components/ui/label"
 import { Card, CardContent } from "@/components/ui/card"
 
 export const metadata: Metadata = {
-    title: "Contact Us | Lansdowne Law Center",
-    description: "Contact Lansdowne Law Center in Lansdowne, PA.",
+    title: "Contact Lansdowne Law Center | Lansdowne & Delaware County Attorneys",
+    description: "Contact our Lansdowne, PA law office to schedule a consultation. Serving clients in Lansdowne, Upper Darby, Drexel Hill, and Delaware County. Call (610) 623-3445.",
 }
+
+const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Lansdowne Law Center",
+    "image": "https://lansdownelawcenter.com/images/hero-justice.png",
+    "telephone": "+1-610-623-3445",
+    "email": "info@hbmlawoffice.com",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "55 N. Lansdowne Ave",
+        "addressLocality": "Lansdowne",
+        "addressRegion": "PA",
+        "postalCode": "19050",
+        "addressCountry": "US"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.938,
+        "longitude": -75.275
+    },
+    "url": "https://lansdownelawcenter.com/contact",
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "17:00"
+        }
+    ],
+    "priceRange": "$$",
+    "areaServed": ["Lansdowne", "Upper Darby", "Drexel Hill", "Havertown", "Delaware County", "Clifton Heights"]
+};
 
 export default function ContactPage() {
     return (
@@ -127,6 +166,10 @@ export default function ContactPage() {
                     </Card>
                 </div>
             </div>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
         </div>
     )
 }

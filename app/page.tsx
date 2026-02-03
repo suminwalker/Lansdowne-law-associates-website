@@ -24,11 +24,11 @@ export default function Home() {
         <div className="container relative z-10 text-center text-white space-y-8 max-w-4xl mx-auto px-4 drop-shadow-lg">
           <ScrollReveal delay={0.1}>
             <h1 className="text-4xl md:text-6xl font-bold font-serif tracking-tight leading-tight [text-shadow:_0_2px_4px_rgba(0,0,0,0.8)]">
-              A Full-Service Pennsylvania Law Firm
+              Lansdowne Law Center: Trusted Lansdowne, PA Attorneys
             </h1>
           </ScrollReveal>
           <p className="text-lg md:text-xl text-slate-100 max-w-2xl mx-auto leading-relaxed font-medium [text-shadow:_0_1px_2px_rgba(0,0,0,0.8)]">
-            Serving individuals, small businesses, and corporations in Lansdowne and beyond since 1966.
+            Serving individuals, small businesses, and corporations in Lansdowne, Delaware County, and surrounding communities since 1966.
           </p>
           <ScrollReveal delay={0.2}>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
@@ -52,7 +52,7 @@ export default function Home() {
           </ScrollReveal>
 
           <p className="text-muted-foreground max-w-2xl mx-auto text-center">
-            Lansdowne Law Center is a fully-staffed law office located in Lansdowne since 1966. The firm is a general practice firm representing individuals and small businesses, proprietorships, corporations, and insurance companies.
+            Lansdowne Law Center is a fully-staffed law office located in Lansdowne, PA since 1966. The firm is a general practice firm representing individuals and small businesses, proprietorships, corporations, and insurance companies throughout Delaware County.
           </p>
           <p className="text-muted-foreground max-w-2xl mx-auto pt-2 text-center mb-16">
             We represent the CLC Prepaid Legal Services Plan covering employers like Verizon and SAP, and are approved lawyers for the Military Officers Association of America.

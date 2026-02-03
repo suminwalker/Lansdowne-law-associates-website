@@ -5,48 +5,48 @@ import { Button } from "@/components/ui/button"
 import { ScrollReveal } from "@/components/ui/scroll-reveal"
 
 export const metadata: Metadata = {
-    title: "Practice Areas | Lansdowne Law Center",
-    description: "Comprehensive legal services including Family Law, Business Law, Real Estate, Estate Planning, and more.",
+    title: "Practice Areas | Lansdowne & Delaware County Attorneys",
+    description: "Legal services for Delaware County residents: Family Law, Estate Planning, Real Estate, Criminal Defense, and Personal Injury in Lansdowne, PA.",
 }
 
 const practices = [
     {
         category: "Personal & Family Law",
         items: [
-            "Family Law – Divorce, Custody, Support",
-            "Estate Planning – Wills, Powers of Attorney, Healthcare Directives, Trusts",
-            "Estate and Trust Administration (Probate to Tax Returns)",
-            "Elder Law",
-            "Protection From Abuse (PFA)",
-            "Personal Injury"
+            "Family Law – Divorce, Child Custody, and Spousal Support in Delaware County",
+            "Estate Planning – Wills, Powers of Attorney, Healthcare Directives, and Trusts",
+            "Estate and Trust Administration – Probate to Inheritance Tax Returns",
+            "Elder Law & Guardianships",
+            "Protection From Abuse (PFA) Orders",
+            "Personal Injury – Auto Accidents, Slip & Fall, and Negligence Claims"
         ]
     },
     {
         category: "Business & Corporate",
         items: [
-            "Business and Corporate Negotiation and Litigation",
+            "Business & Corporate Law – Negotiation, Litigation, and Formation",
             "Individual and Estate Income Tax Practice",
-            "Administrative Law, including Employment Disputes",
-            "Workers Compensation",
+            "Administrative Law & Employment Disputes",
+            "Workers Compensation Claims",
             "Motor Vehicle and Regulatory Practice"
         ]
     },
     {
         category: "Real Estate & Property",
         items: [
-            "Real Estate Law",
-            "Zoning and Development",
-            "Landlord/Tenant Actions"
+            "Real Estate Law – Buying, Selling, and Closings",
+            "Zoning, Subdivision, and Land Development in Lansdowne & Vicinity",
+            "Landlord/Tenant Actions & Lease Disputes"
         ]
     },
     {
-        category: "Criminal Defense & Civil",
+        category: "Criminal Defense & Civil Litigation",
         items: [
-            "Criminal Defenses",
-            "DUI Defenses",
+            "Criminal Defense – Misdemeanors & Felonies",
+            "DUI Defense in Lansdowne & Delaware County",
             "Juvenile Law Matters",
-            "Expungements",
-            "Civil Matters"
+            "Expungements & Record Sealing",
+            "General Civil Litigation & Dispute Resolution"
         ]
     }
 ]

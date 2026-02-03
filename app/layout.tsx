@@ -23,8 +23,17 @@ import { Footer } from "@/components/layout/footer"
 import { SmoothScroll } from "@/components/ui/smooth-scroll"
 
 export const metadata: Metadata = {
-  title: "Lansdowne Law Center | Annual Review",
-  description: "A Full-Service Pennsylvania Law Firm serving Lansdowne and surrounding areas since 1966.",
+  title: "Lansdowne Law Center | Lansdowne & Delaware County Attorneys",
+  description: "Lansdowne Law Center provides experienced legal representation in Family Law, Estate Planning, Real Estate, and Criminal Defense for Lansdowne, Delaware County, and surrounding communities since 1966.",
+  keywords: ["Lansdowne Attorney", "Delaware County Law Firm", "Upper Darby Lawyer", "Havertown Legal Services", "Estate Planning 19050", "Family Law Delaware County", "Criminal Defense Lansdowne", "Real Estate Lawyer PA"],
+  openGraph: {
+    title: "Lansdowne Law Center | Trusted Lansdowne & Delaware County Attorneys",
+    description: "Serving individuals and businesses in Lansdowne, Upper Darby, and Delaware County since 1966.",
+    url: "https://lansdownelawcenter.com",
+    siteName: "Lansdowne Law Center",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
