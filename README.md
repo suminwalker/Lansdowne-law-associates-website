@@ -5,7 +5,7 @@ This repository contains the source code for the **Lansdowne Law Center ** websi
 The site emphasizes clarity, clean typography, and subtle motion to create a polished experience without distracting from content or trust-building.
 
 🔗 **Live site:**  
-https://lansdowne-law-center-website.vercel.app/
+https://www.lansdownelawcenter.com/
 
 ---
 
