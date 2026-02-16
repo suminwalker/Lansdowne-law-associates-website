@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowRight, Scale, Shield, Users, Building, Gavel, FileText, MapPin } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -11,10 +12,13 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative bg-slate-900 py-24 md:py-32 overflow-hidden min-h-[70vh] flex items-center">
         {/* Background Image */}
-        <div
-          className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000 scale-105"
+        <Image
+          src="/images/hero-justice.png"
+          alt="Lansdowne Law Center Hero"
+          fill
+          priority
+          className="absolute inset-0 z-0 object-cover transition-transform duration-1000 scale-105"
           style={{
-            backgroundImage: "url('/images/hero-justice.png')",
             filter: "brightness(1.25) contrast(1.1)"
           }}
         />
