@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+import Link from "next/link"
 import { ScrollReveal } from "@/components/ui/scroll-reveal"
 
 export const metadata: Metadata = {
@@ -50,7 +51,25 @@ export default function AboutPage() {
                                 <div className="w-32 h-32 bg-slate-200 rounded-full mb-6 flex items-center justify-center text-slate-400 text-3xl font-serif font-bold">
                                     {name.split(" ").map(n => n[0]).join("")}
                                 </div>
-                                <h3 className="text-xl font-bold font-serif text-primary">{name}</h3>
+                                {name === "Joseph W. Bullen" ? (
+                                    <Link href="/attorneys/joseph-w-bullen" className="hover:underline hover:text-primary/80 transition-colors">
+                                        <h3 className="text-xl font-bold font-serif text-primary">{name}</h3>
+                                    </Link>
+                                ) : name === "Richard P. Landry" ? (
+                                    <Link href="/attorneys/richard-p-landry" className="hover:underline hover:text-primary/80 transition-colors">
+                                        <h3 className="text-xl font-bold font-serif text-primary">{name}</h3>
+                                    </Link>
+                                ) : name === "John R. Walker" ? (
+                                    <Link href="/attorneys/john-r-walker" className="hover:underline hover:text-primary/80 transition-colors">
+                                        <h3 className="text-xl font-bold font-serif text-primary">{name}</h3>
+                                    </Link>
+                                ) : name === "Harry Kleinman" ? (
+                                    <Link href="/attorneys/harry-kleinman" className="hover:underline hover:text-primary/80 transition-colors">
+                                        <h3 className="text-xl font-bold font-serif text-primary">{name}</h3>
+                                    </Link>
+                                ) : (
+                                    <h3 className="text-xl font-bold font-serif text-primary">{name}</h3>
+                                )}
                                 <p className="text-muted-foreground mt-2">Partner</p>
                             </div>
                         </ScrollReveal>
