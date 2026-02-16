@@ -1,5 +1,6 @@
 import { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import { CheckCircle2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ScrollReveal } from "@/components/ui/scroll-reveal"
@@ -56,37 +57,36 @@ export default function PracticesPage() {
             <ScrollReveal className="space-y-6 text-center mb-16">
                 <h1 className="text-4xl md:text-5xl font-bold font-serif tracking-tight text-primary">Practice Areas</h1>
 
-                {/* Hero Banner Image Placeholder */}
                 {/* Hero Banner Images - Grid of 3 */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-12">
                     {/* Image 1: Family Law */}
                     <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-slate-100 group">
-                        <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-200 text-slate-500 p-4 text-center group-hover:bg-slate-300 transition-colors">
-                            <span className="text-3xl mb-3">👨‍👩‍👧‍👦</span>
-                            <span className="font-serif font-bold text-lg">Family Law</span>
-                            <span className="text-xs mt-1 opacity-75">(Place image here)</span>
-                        </div>
-                        {/* <Image src="/images/family-law.jpg" alt="Family Law" fill className="object-cover" /> */}
+                        <Image
+                            src="/images/family-law.png"
+                            alt="Family Law - Toy blocks representing family"
+                            fill
+                            className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
                     </div>
 
                     {/* Image 2: Estate Planning */}
                     <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-slate-100 group">
-                        <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-200 text-slate-500 p-4 text-center group-hover:bg-slate-300 transition-colors">
-                            <span className="text-3xl mb-3">📜</span>
-                            <span className="font-serif font-bold text-lg">Estate Planning</span>
-                            <span className="text-xs mt-1 opacity-75">(Place image here)</span>
-                        </div>
-                        {/* <Image src="/images/estate-planning.jpg" alt="Estate Planning" fill className="object-cover" /> */}
+                        <Image
+                            src="/images/estate-planning.jpg"
+                            alt="Estate Planning - Family meeting with attorney"
+                            fill
+                            className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
                     </div>
 
                     {/* Image 3: Criminal Defense / Litigation */}
                     <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-slate-100 group">
-                        <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-200 text-slate-500 p-4 text-center group-hover:bg-slate-300 transition-colors">
-                            <span className="text-3xl mb-3">⚖️</span>
-                            <span className="font-serif font-bold text-lg">Criminal Defense & Litigation</span>
-                            <span className="text-xs mt-1 opacity-75">(Place image here)</span>
-                        </div>
-                        {/* <Image src="/images/criminal-defense.jpg" alt="Criminal Defense" fill className="object-cover" /> */}
+                        <Image
+                            src="/images/criminal-defense.png"
+                            alt="Criminal Defense - Gavel"
+                            fill
+                            className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
                     </div>
                 </div>
 

@@ -1,5 +1,6 @@
 import { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import { ScrollReveal } from "@/components/ui/scroll-reveal"
 
 export const metadata: Metadata = {
@@ -14,19 +15,12 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
                 <ScrollReveal>
                     <div className="relative aspect-square md:aspect-[4/5] w-full rounded-lg overflow-hidden shadow-xl bg-slate-100">
-                        {/* Placeholder for Lansdowne Image */}
-                        <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-200 text-slate-500 p-6 text-center">
-                            <span className="text-4xl mb-4">🏛️</span>
-                            <span className="font-serif font-bold text-lg">Lansdowne Historic Theater / Streetscape</span>
-                            <span className="text-sm mt-2 opacity-75">(Place image here)</span>
-                        </div>
-                        {/* Uncomment when image is available */}
-                        {/* <Image
-                            src="/images/lansdowne-theater.jpg" 
+                        <Image
+                            src="/images/lansdowne-theater.png" 
                             alt="Historic Lansdowne"
                             fill
                             className="object-cover"
-                        /> */}
+                        />
                     </div>
                 </ScrollReveal>
 
