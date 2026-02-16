@@ -53,16 +53,16 @@ export default function Home() {
 
       {/* Intro/Trust Signals */}
       <section className="py-20 bg-white">
-        <div className="container px-4 max-w-5xl mx-auto">
+        <div className="container px-4 max-w-[95%] mx-auto">
           <ScrollReveal className="text-center mb-16 space-y-4">
             <h2 className="text-3xl font-bold font-serif text-foreground">Why Choose Lansdowne Law Center?</h2>
             <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
           </ScrollReveal>
 
-          <p className="text-muted-foreground max-w-2xl mx-auto text-center mb-6">
+          <p className="text-muted-foreground max-w-4xl mx-auto text-center mb-6">
             Lansdowne Law Center is a fully staffed neighborhood law office. Our Attorneys bring a focused, disciplined and client-first approach to all of our representations. With more than a century of legal experience our skilled attorneys will be the advocate you want to successfully help you reach your objectives.
           </p>
-          <p className="text-muted-foreground max-w-2xl mx-auto text-center mb-16">
+          <p className="text-muted-foreground max-w-4xl mx-auto text-center mb-16">
             Lansdowne Law Center Attorneys work with our clients to develop strategies and employ legal tactics to achieve optimal results. Let our team use the outstanding trial and courtroom talents and their superior drafting skill to prepare motions, pleadings, leases, agreements and estate documents to meet your needs.
           </p>
 
