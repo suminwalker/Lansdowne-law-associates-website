@@ -21,7 +21,7 @@ export default function Home() {
         {/* Supplemental Overlay for Content Focus */}
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/30 to-slate-950/50 z-[1]" />
 
-        <div className="container relative z-10 text-center text-white space-y-8 max-w-4xl mx-auto px-4 drop-shadow-lg">
+        <div className="container relative z-10 text-center text-white space-y-8 max-w-6xl mx-auto px-4 drop-shadow-lg">
           <ScrollReveal delay={0.1}>
             <h1 className="text-4xl md:text-6xl font-bold font-serif tracking-tight leading-tight [text-shadow:_0_2px_4px_rgba(0,0,0,0.8)] mb-4">
               LANSDOWNE LAW CENTER
@@ -30,7 +30,7 @@ export default function Home() {
               A Full-Service Neighborhood Law Firm with Real World Experience
             </p>
           </ScrollReveal>
-          <p className="text-lg md:text-xl text-slate-100 max-w-2xl mx-auto leading-relaxed font-medium [text-shadow:_0_1px_2px_rgba(0,0,0,0.8)]">
+          <p className="text-lg md:text-xl text-slate-100 max-w-5xl mx-auto leading-relaxed font-medium [text-shadow:_0_1px_2px_rgba(0,0,0,0.8)]">
             Our Attorneys have served generations of families, individuals, small businesses and corporations in Lansdowne, Upper Darby, Drexel Hill, Clifton Heights, Yeadon, Delaware County and the Five-County Area, and bring more than 100 years of outstanding experience to protect your rights and achieve your goals.
           </p>
           <ScrollReveal delay={0.2}>
