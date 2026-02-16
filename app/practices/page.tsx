@@ -62,8 +62,8 @@ export default function PracticesPage() {
                     {/* Image 1: Family Law */}
                     <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-slate-100 group">
                         <Image
-                            src="/images/family-law.png"
-                            alt="Family Law - Toy blocks representing family"
+                            src="/images/family-law-apartment.png"
+                            alt="Family Law - Modest urban apartment building"
                             fill
                             className="object-cover transition-transform duration-500 group-hover:scale-105"
                         />
