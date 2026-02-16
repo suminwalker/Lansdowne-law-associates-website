@@ -57,18 +57,37 @@ export default function PracticesPage() {
                 <h1 className="text-4xl md:text-5xl font-bold font-serif tracking-tight text-primary">Practice Areas</h1>
 
                 {/* Hero Banner Image Placeholder */}
-                <div className="relative w-full aspect-[21/9] md:aspect-[3/1] rounded-lg overflow-hidden shadow-lg bg-slate-100 my-8">
-                    <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-200 text-slate-500 p-6 text-center">
-                        <span className="text-4xl mb-4">⚖️</span>
-                        <span className="font-serif font-bold text-lg">Delaware County Courthouse / Drexel Hill</span>
-                        <span className="text-sm mt-2 opacity-75">(Place image here)</span>
+                {/* Hero Banner Images - Grid of 3 */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-12">
+                    {/* Image 1: Family Law */}
+                    <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-slate-100 group">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-200 text-slate-500 p-4 text-center group-hover:bg-slate-300 transition-colors">
+                            <span className="text-3xl mb-3">👨‍👩‍👧‍👦</span>
+                            <span className="font-serif font-bold text-lg">Family Law</span>
+                            <span className="text-xs mt-1 opacity-75">(Place image here)</span>
+                        </div>
+                        {/* <Image src="/images/family-law.jpg" alt="Family Law" fill className="object-cover" /> */}
                     </div>
-                    {/* <Image
-                        src="/images/delaware-county-courthouse.jpg"
-                        alt="Delaware County Courthouse"
-                        fill
-                        className="object-cover"
-                    /> */}
+
+                    {/* Image 2: Estate Planning */}
+                    <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-slate-100 group">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-200 text-slate-500 p-4 text-center group-hover:bg-slate-300 transition-colors">
+                            <span className="text-3xl mb-3">📜</span>
+                            <span className="font-serif font-bold text-lg">Estate Planning</span>
+                            <span className="text-xs mt-1 opacity-75">(Place image here)</span>
+                        </div>
+                        {/* <Image src="/images/estate-planning.jpg" alt="Estate Planning" fill className="object-cover" /> */}
+                    </div>
+
+                    {/* Image 3: Criminal Defense / Litigation */}
+                    <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-slate-100 group">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-200 text-slate-500 p-4 text-center group-hover:bg-slate-300 transition-colors">
+                            <span className="text-3xl mb-3">⚖️</span>
+                            <span className="font-serif font-bold text-lg">Criminal Defense & Litigation</span>
+                            <span className="text-xs mt-1 opacity-75">(Place image here)</span>
+                        </div>
+                        {/* <Image src="/images/criminal-defense.jpg" alt="Criminal Defense" fill className="object-cover" /> */}
+                    </div>
                 </div>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
