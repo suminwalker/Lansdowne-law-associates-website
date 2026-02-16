@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 
 const practices = [
     {
+        id: "family-law",
         category: "Personal & Family Law",
         items: [
             "Family Law – Divorce, Child Custody, Child Support and Spousal Support",
@@ -23,6 +24,7 @@ const practices = [
         ]
     },
     {
+        id: "business-corporate",
         category: "Business & Corporate",
         items: [
             "Business & Corporate Law – Negotiations, Litigation and Formation",
@@ -30,6 +32,7 @@ const practices = [
         ]
     },
     {
+        id: "real-estate",
         category: "Real Estate & Property",
         items: [
             "Real Estate Law – Buying, Selling and Closings",
@@ -38,6 +41,7 @@ const practices = [
         ]
     },
     {
+        id: "criminal-civil",
         category: "Criminal Defense & Civil Litigation",
         items: [
             "Criminal Defense – Misdemeanors, Felonies and Summary Offenses",
@@ -98,7 +102,7 @@ export default function PracticesPage() {
             <div className="space-y-16">
                 {practices.map((section, idx) => (
                     <ScrollReveal key={idx} delay={idx * 0.1}>
-                        <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-8 md:p-10 border border-slate-100 dark:border-slate-800">
+                        <div id={section.id} className="scroll-mt-24 bg-slate-50 dark:bg-slate-900 rounded-lg p-8 md:p-10 border border-slate-100 dark:border-slate-800">
                             <h2 className="text-2xl font-bold font-serif mb-8 flex items-center">
                                 <span className="bg-primary w-2 h-8 mr-4 rounded-full" />
                                 {section.category}

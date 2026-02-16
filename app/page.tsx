@@ -134,7 +134,7 @@ export default function Home() {
                   <p className="text-sm text-muted-foreground mb-4">
                     Divorce, Custody, Support, and PFA actions.
                   </p>
-                  <Link href="/practices" className="text-sm font-medium text-primary hover:underline flex items-center">
+                  <Link href="/practices#family-law" className="text-sm font-medium text-primary hover:underline flex items-center">
                     Learn more <ArrowRight className="h-3 w-3 ml-1" />
                   </Link>
                 </CardContent>
@@ -154,7 +154,7 @@ export default function Home() {
                   <p className="text-sm text-muted-foreground mb-4">
                     Wills, Trusts, Powers of Attorney, and Administration.
                   </p>
-                  <Link href="/practices" className="text-sm font-medium text-primary hover:underline flex items-center">
+                  <Link href="/practices#family-law" className="text-sm font-medium text-primary hover:underline flex items-center">
                     Learn more <ArrowRight className="h-3 w-3 ml-1" />
                   </Link>
                 </CardContent>
@@ -174,7 +174,7 @@ export default function Home() {
                   <p className="text-sm text-muted-foreground mb-4">
                     Negotiation, Litigation, and Taxation.
                   </p>
-                  <Link href="/practices" className="text-sm font-medium text-primary hover:underline flex items-center">
+                  <Link href="/practices#business-corporate" className="text-sm font-medium text-primary hover:underline flex items-center">
                     Learn more <ArrowRight className="h-3 w-3 ml-1" />
                   </Link>
                 </CardContent>
@@ -194,7 +194,7 @@ export default function Home() {
                   <p className="text-sm text-muted-foreground mb-4">
                     Real Estate Law, Landlord/Tenant, Zoning & Development.
                   </p>
-                  <Link href="/practices" className="text-sm font-medium text-primary hover:underline flex items-center">
+                  <Link href="/practices#real-estate" className="text-sm font-medium text-primary hover:underline flex items-center">
                     Learn more <ArrowRight className="h-3 w-3 ml-1" />
                   </Link>
                 </CardContent>
@@ -214,7 +214,7 @@ export default function Home() {
                   <p className="text-sm text-muted-foreground mb-4">
                     DUI Defense, Expungements, Personal Injury, and general litigation.
                   </p>
-                  <Link href="/practices" className="text-sm font-medium text-primary hover:underline flex items-center">
+                  <Link href="/practices#criminal-civil" className="text-sm font-medium text-primary hover:underline flex items-center">
                     Learn more <ArrowRight className="h-3 w-3 ml-1" />
                   </Link>
                 </CardContent>
