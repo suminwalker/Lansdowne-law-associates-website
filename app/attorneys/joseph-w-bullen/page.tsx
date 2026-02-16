@@ -45,7 +45,7 @@ export default function JosephBullenBioPage() {
                             <ul className="space-y-3">
                                 <li className="flex items-center gap-3 text-sm">
                                     <Phone className="h-4 w-4 text-primary" />
-                                    <a href="tel:610-623-3445" className="hover:text-primary transition-colors">(610) 623-3445</a>
+                                    <a href="tel:610-623-2379" className="hover:text-primary transition-colors">(610) 623-2379</a>
                                 </li>
                                 <li className="flex items-center gap-3 text-sm">
                                     <Mail className="h-4 w-4 text-primary" />

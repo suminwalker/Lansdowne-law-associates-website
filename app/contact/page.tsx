@@ -16,7 +16,7 @@ const jsonLd = {
     "@type": "LegalService",
     "name": "Lansdowne Law Center",
     "image": "https://lansdownelawcenter.com/images/hero-justice.png",
-    "telephone": "+1-610-623-3445",
+    "telephone": "+1-610-623-2379",
     "email": "info@hbmlawoffice.com",
     "address": {
         "@type": "PostalAddress",
@@ -89,8 +89,8 @@ export default function ContactPage() {
                                 <div>
                                     <h3 className="font-semibold font-serif text-lg">Phone</h3>
                                     <p className="font-medium text-lg mt-1">
-                                        <a href="tel:610-623-3445" className="hover:text-primary transition-colors">
-                                            (610) 623-3445
+                                        <a href="tel:610-623-2379" className="hover:text-primary transition-colors">
+                                            (610) 623-2379
                                         </a>
                                     </p>
                                 </div>

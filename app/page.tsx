@@ -43,8 +43,8 @@ export default function Home() {
               </Button>
             </div>
             <p className="pt-8 text-4xl font-semibold text-white/90">
-              <a href="tel:610-623-3445" className="hover:text-white transition-colors">
-                (610) 623-3445
+              <a href="tel:610-623-2379" className="hover:text-white transition-colors">
+                (610) 623-2379
               </a>
             </p>
           </ScrollReveal>
@@ -248,8 +248,8 @@ export default function Home() {
             </Button>
             <div className="flex items-center gap-3">
               <span className="text-lg font-serif italic opacity-75">or call</span>
-              <a href="tel:610-623-3445" className="text-2xl font-bold hover:underline transition-all">
-                (610) 623-3445
+              <a href="tel:610-623-2379" className="text-2xl font-bold hover:underline transition-all">
+                (610) 623-2379
               </a>
             </div>
           </div>

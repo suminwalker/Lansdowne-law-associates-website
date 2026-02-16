@@ -151,8 +151,8 @@ export default function ConsultationPage() {
                                 <div className="bg-primary text-primary-foreground p-8 rounded-2xl shadow-lg mt-8">
                                     <h4 className="font-bold text-xl mb-3 font-serif">Prefer to call?</h4>
                                     <p className="mb-4 opacity-90">Our team is available Monday through Friday, 9:00 a.m. – 5:00 p.m.</p>
-                                    <a href="tel:610-623-3445" className="inline-flex items-center gap-2 text-2xl font-bold hover:underline">
-                                        (610) 623-3445
+                                    <a href="tel:610-623-2379" className="inline-flex items-center gap-2 text-2xl font-bold hover:underline">
+                                        (610) 623-2379
                                     </a>
                                 </div>
                             </div>
