@@ -70,7 +70,7 @@ export default function ContactPage() {
                                 <div>
                                     <h3 className="font-semibold font-serif text-lg">Office Location</h3>
                                     <p className="text-muted-foreground text-sm mt-1 leading-relaxed">
-                                        55 N. Lansdowne Ave.<br />
+                                        55 N. Lansdowne Avenue<br />
                                         Lansdowne, PA 19050
                                     </p>
                                     <a
@@ -113,8 +113,8 @@ export default function ContactPage() {
                                 <div>
                                     <h3 className="font-semibold font-serif text-lg">Hours</h3>
                                     <p className="text-muted-foreground text-sm mt-1 leading-relaxed">
-                                        Mon - Fri: 9:00 AM - 5:00 PM<br />
-                                        Sat - Sun: Closed
+                                        Mon – Fri: 9:00 a.m. – 5:00 p.m.<br />
+                                        Sat – Sun: By Appointment Only
                                     </p>
                                 </div>
                             </div>

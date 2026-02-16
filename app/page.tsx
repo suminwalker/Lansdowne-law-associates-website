@@ -23,12 +23,15 @@ export default function Home() {
 
         <div className="container relative z-10 text-center text-white space-y-8 max-w-4xl mx-auto px-4 drop-shadow-lg">
           <ScrollReveal delay={0.1}>
-            <h1 className="text-4xl md:text-6xl font-bold font-serif tracking-tight leading-tight [text-shadow:_0_2px_4px_rgba(0,0,0,0.8)]">
-              Lansdowne Law Center: Trusted Lansdowne, PA Attorneys
+            <h1 className="text-4xl md:text-6xl font-bold font-serif tracking-tight leading-tight [text-shadow:_0_2px_4px_rgba(0,0,0,0.8)] mb-4">
+              LANSDOWNE LAW CENTER
             </h1>
+            <p className="text-2xl md:text-3xl font-serif italic text-white/90 mb-6 [text-shadow:_0_2px_4px_rgba(0,0,0,0.8)]">
+              A Full-Service Neighborhood Law Firm with Real World Experience
+            </p>
           </ScrollReveal>
           <p className="text-lg md:text-xl text-slate-100 max-w-2xl mx-auto leading-relaxed font-medium [text-shadow:_0_1px_2px_rgba(0,0,0,0.8)]">
-            Serving individuals, small businesses, and corporations in Lansdowne, Delaware County, and surrounding communities since 1966.
+            Our Attorneys have served generations of families, individuals, small businesses and corporations in Lansdowne, Upper Darby, Drexel Hill, Clifton Heights, Yeadon, Delaware County and the Five-County Area, and bring more than 100 years of outstanding experience to protect your rights and achieve your goals.
           </p>
           <ScrollReveal delay={0.2}>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
@@ -56,11 +59,11 @@ export default function Home() {
             <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
           </ScrollReveal>
 
-          <p className="text-muted-foreground max-w-2xl mx-auto text-center">
-            Lansdowne Law Center is a fully-staffed law office located in Lansdowne, PA since 1966. The firm is a general practice firm representing individuals and small businesses, proprietorships, corporations, and insurance companies throughout Delaware County.
+          <p className="text-muted-foreground max-w-2xl mx-auto text-center mb-6">
+            Lansdowne Law Center is a fully staffed neighborhood law office. Our Attorneys bring a focused, disciplined and client-first approach to all of our representations. With more than a century of legal experience our skilled attorneys will be the advocate you want to successfully help you reach your objectives.
           </p>
-          <p className="text-muted-foreground max-w-2xl mx-auto pt-2 text-center mb-16">
-            We represent the CLC Prepaid Legal Services Plan covering employers like Verizon and SAP, and are approved lawyers for the Military Officers Association of America.
+          <p className="text-muted-foreground max-w-2xl mx-auto text-center mb-16">
+            Lansdowne Law Center Attorneys work with our clients to develop strategies and employ legal tactics to achieve optimal results. Let our team use the outstanding trial and courtroom talents and their superior drafting skill to prepare motions, pleadings, leases, agreements and estate documents to meet your needs.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -71,7 +74,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg font-bold font-serif">Decades of Experience</h3>
                 <p className="text-sm text-muted-foreground">
-                  Established in 1966, providing over 50 years of trusted legal counsel to the community.
+                  Our Attorneys have more than a century of legal experience and in providing exceptional legal representation to our clients.
                 </p>
               </div>
             </ScrollReveal>
@@ -82,7 +85,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg font-bold font-serif">Client-Focused</h3>
                 <p className="text-sm text-muted-foreground">
-                  We represent individuals, businesses, and corporations with personalized attention.
+                  We pride ourselves in providing first-rate personalized attention to our clients and their legal needs. Our Attorneys focus on meeting our clients, and successfully achieve their objectives and goals through individualized attention and zealous representation.
                 </p>
               </div>
             </ScrollReveal>
@@ -93,7 +96,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg font-bold font-serif">Full Service</h3>
                 <p className="text-sm text-muted-foreground">
-                  Comprehensive legal support across a wide range of practice areas, from Family Law to Estate Planning.
+                  Lansdowne Law Center offers comprehensive legal support across a broad range of practice areas from Contract Litigation, to Family Law, to Estate Planning and Administration, to Criminal Defense and DUI Defense, to Zoning.
                 </p>
               </div>
             </ScrollReveal>
@@ -105,9 +108,9 @@ export default function Home() {
       <section className="py-20 bg-slate-50 border-y border-slate-200">
         <div className="container px-4 mx-auto max-w-6xl">
           <ScrollReveal className="flex flex-col items-center mb-12 space-y-4 text-center">
-            <h2 className="text-3xl font-bold font-serif tracking-tight">Areas of Practice</h2>
-            <p className="text-muted-foreground max-w-2xl">
-              Count on us for all of your legal needs.
+            <h2 className="text-3xl font-bold font-serif tracking-tight">Practice Areas</h2>
+            <p className="text-muted-foreground max-w-4xl">
+              Lansdowne Law Center offers comprehensive legal support across a broad range of practice areas from Contract Litigation, to Family Law, to Estate Planning and Administration, to Criminal Defense and DUI Defense, to Zoning.
             </p>
           </ScrollReveal>
 

@@ -31,7 +31,7 @@ export function Footer() {
                         <ul className="space-y-3 text-sm text-muted-foreground">
                             <li className="flex items-start gap-2">
                                 <MapPin className="h-4 w-4 shrink-0 mt-1" />
-                                <span>55 N. Lansdowne Ave.<br />Lansdowne, PA 19050</span>
+                                <span>55 N. Lansdowne Avenue<br />Lansdowne, PA 19050</span>
                             </li>
                             <li className="flex items-center gap-2">
                                 <Phone className="h-4 w-4 shrink-0" />
@@ -47,8 +47,8 @@ export function Footer() {
                     <div className="space-y-4">
                         <h3 className="text-sm font-medium font-serif text-primary uppercase tracking-wider">Office Hours</h3>
                         <ul className="space-y-3 text-sm text-muted-foreground">
-                            <li>Mon - Fri: 9:00 AM - 5:00 PM</li>
-                            <li>Sat - Sun: Closed</li>
+                            <li>Mon – Fri: 9:00 a.m. – 5:00 p.m.</li>
+                            <li>Sat – Sun: By Appointment Only</li>
                         </ul>
                     </div>
                 </div>

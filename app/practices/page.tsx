@@ -13,40 +13,39 @@ const practices = [
     {
         category: "Personal & Family Law",
         items: [
-            "Family Law – Divorce, Child Custody, and Spousal Support in Delaware County",
-            "Estate Planning – Wills, Powers of Attorney, Healthcare Directives, and Trusts",
+            "Family Law – Divorce, Child Custody, Child Support and Spousal Support",
+            "Estate Planning – Wills, Powers of Attorney, Health Care Powers of Attorney and Trusts",
             "Estate and Trust Administration – Probate to Inheritance Tax Returns",
             "Elder Law & Guardianships",
             "Protection From Abuse (PFA) Orders",
-            "Personal Injury – Auto Accidents, Slip & Fall, and Negligence Claims"
+            "Property Settlement and Post-Nuptial Agreements"
         ]
     },
     {
         category: "Business & Corporate",
         items: [
-            "Business & Corporate Law – Negotiation, Litigation, and Formation",
-            "Individual and Estate Income Tax Practice",
-            "Administrative Law & Employment Disputes",
-            "Workers Compensation Claims",
-            "Motor Vehicle and Regulatory Practice"
+            "Business & Corporate Law – Negotiations, Litigation and Formation",
+            "Individual and Estate Income Tax Practice"
         ]
     },
     {
         category: "Real Estate & Property",
         items: [
-            "Real Estate Law – Buying, Selling, and Closings",
-            "Zoning, Subdivision, and Land Development in Lansdowne & Vicinity",
+            "Real Estate Law – Buying, Selling and Closings",
+            "Zoning, Subdivision and Land Development in Lansdowne and Vicinity",
             "Landlord/Tenant Actions & Lease Disputes"
         ]
     },
     {
         category: "Criminal Defense & Civil Litigation",
         items: [
-            "Criminal Defense – Misdemeanors & Felonies",
-            "DUI Defense in Lansdowne & Delaware County",
+            "Criminal Defense – Misdemeanors, Felonies and Summary Offenses",
+            "DUI Defense",
             "Juvenile Law Matters",
             "Expungements & Record Sealing",
-            "General Civil Litigation & Dispute Resolution"
+            "General Litigation & Dispute Resolution",
+            "Small Claims Actions",
+            "Contract Litigation"
         ]
     }
 ]
@@ -56,8 +55,8 @@ export default function PracticesPage() {
         <div className="container py-12 md:py-20 px-4 max-w-5xl mx-auto">
             <ScrollReveal className="space-y-6 text-center mb-16">
                 <h1 className="text-4xl md:text-5xl font-bold font-serif tracking-tight text-primary">Practice Areas</h1>
-                <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                    We provide comprehensive legal representation in a wide variety of fields.
+                <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+                    Lansdowne Law Center offers comprehensive legal support across a broad range of practice areas from Contract Litigation, to Family Law, to Estate Planning and Administration, to Criminal Defense and DUI Defense, to Zoning.
                 </p>
             </ScrollReveal>
 

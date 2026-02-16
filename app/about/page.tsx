@@ -19,7 +19,7 @@ export default function AboutPage() {
                 <div className="prose prose-lg dark:prose-invert mx-auto text-muted-foreground leading-loose">
                     <ScrollReveal delay={0.1}>
                         <p className="text-xl font-medium text-foreground text-center">
-                            Lansdowne Law Center has been a cornerstone of the Lansdowne legal community since 1966.
+                            Lansdowne Law Center has been a cornerstone of the Lansdowne legal community, combining over 100 years of experience serving our clients.
                         </p>
                     </ScrollReveal>
                     <p className="mt-6">
@@ -41,7 +41,8 @@ export default function AboutPage() {
                     {[
                         "Joseph W. Bullen",
                         "Richard P. Landry",
-                        "John R. Walker"
+                        "John R. Walker",
+                        "Harry Kleinman"
                     ].map((name, index) => (
                         <ScrollReveal key={name} delay={index * 0.1}>
                             <div className="flex flex-col items-center text-center p-6 bg-slate-50 border rounded-lg h-full">
