@@ -70,7 +70,9 @@ export default function AboutPage() {
                                 ) : (
                                     <h3 className="text-xl font-bold font-serif text-primary">{name}</h3>
                                 )}
-                                <p className="text-muted-foreground mt-2">Partner</p>
+                                <p className="text-muted-foreground mt-2">
+                                    {name === "Richard P. Landry" || name === "Harry Kleinman" ? "Senior Associate" : "Partner"}
+                                </p>
                             </div>
                         </ScrollReveal>
                     ))}

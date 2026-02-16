@@ -7,7 +7,7 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal"
 
 export const metadata: Metadata = {
     title: "Harry Kleinman | Lansdowne Law Center",
-    description: "Bio and profile of Harry Kleinman, Partner at Lansdowne Law Center. Experienced in Criminal Defense, Real Estate, and Wills & Estates.",
+    description: "Bio and profile of Harry Kleinman, Senior Associate at Lansdowne Law Center. Experienced in Criminal Defense, Real Estate, and Wills & Estates.",
 }
 
 export default function HarryKleinmanBioPage() {
@@ -62,7 +62,7 @@ export default function HarryKleinmanBioPage() {
                         <h1 className="text-4xl md:text-5xl font-bold font-serif tracking-tight text-primary mb-2">
                             Harry Kleinman
                         </h1>
-                        <p className="text-xl text-muted-foreground">Partner</p>
+                        <p className="text-xl text-muted-foreground">Senior Associate</p>
                     </ScrollReveal>
 
                     <div className="prose prose-lg dark:prose-invert max-w-none text-muted-foreground">

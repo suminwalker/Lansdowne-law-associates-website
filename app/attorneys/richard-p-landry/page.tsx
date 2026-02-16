@@ -7,7 +7,7 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal"
 
 export const metadata: Metadata = {
     title: "Richard P. Landry | Lansdowne Law Center",
-    description: "Bio and profile of Richard P. Landry, Partner at Lansdowne Law Center. Experienced in Family Law, Criminal Law, and Estate Planning.",
+    description: "Bio and profile of Richard P. Landry, Senior Associate at Lansdowne Law Center. Experienced in Family Law, Criminal Law, and Estate Planning.",
 }
 
 export default function RichardLandryBioPage() {
@@ -62,7 +62,7 @@ export default function RichardLandryBioPage() {
                         <h1 className="text-4xl md:text-5xl font-bold font-serif tracking-tight text-primary mb-2">
                             Richard P. Landry
                         </h1>
-                        <p className="text-xl text-muted-foreground">Partner</p>
+                        <p className="text-xl text-muted-foreground">Senior Associate</p>
                     </ScrollReveal>
 
                     <div className="prose prose-lg dark:prose-invert max-w-none text-muted-foreground">
