@@ -15,11 +15,11 @@ export default function Home() {
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000 scale-105"
           style={{
             backgroundImage: "url('/images/hero-justice.png')",
-            filter: "brightness(0.95) contrast(1.1)"
+            filter: "brightness(1.25) contrast(1.1)"
           }}
         />
-        {/* Supplemental Overlay for Content Focus */}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/30 to-slate-950/50 z-[1]" />
+        {/* Supplemental Overlay for Content Focus - Reduced opacity for brightness */}
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-slate-950/20 to-slate-950/30 z-[1]" />
 
         <div className="container relative z-10 text-center text-white space-y-8 max-w-6xl mx-auto px-4 drop-shadow-lg">
           <ScrollReveal delay={0.1}>
