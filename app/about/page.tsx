@@ -9,26 +9,48 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
     return (
-        <div className="container py-12 md:py-20 px-4 max-w-4xl mx-auto">
-            {/* Firm History */}
-            <div className="space-y-8 mb-20">
+        <div className="container py-12 md:py-20 px-4 max-w-6xl mx-auto">
+            {/* Firm History - Split Layout */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
                 <ScrollReveal>
-                    <h1 className="text-4xl md:text-5xl font-bold font-serif tracking-tight text-center text-primary">
-                        About Our Firm
-                    </h1>
+                    <div className="relative aspect-square md:aspect-[4/5] w-full rounded-lg overflow-hidden shadow-xl bg-slate-100">
+                        {/* Placeholder for Lansdowne Image */}
+                        <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-200 text-slate-500 p-6 text-center">
+                            <span className="text-4xl mb-4">🏛️</span>
+                            <span className="font-serif font-bold text-lg">Lansdowne Historic Theater / Streetscape</span>
+                            <span className="text-sm mt-2 opacity-75">(Place image here)</span>
+                        </div>
+                        {/* Uncomment when image is available */}
+                        {/* <Image
+                            src="/images/lansdowne-theater.jpg" 
+                            alt="Historic Lansdowne"
+                            fill
+                            className="object-cover"
+                        /> */}
+                    </div>
                 </ScrollReveal>
-                <div className="prose prose-lg dark:prose-invert mx-auto text-muted-foreground leading-loose">
+
+                <div className="space-y-6">
                     <ScrollReveal delay={0.1}>
-                        <p className="text-xl font-medium text-foreground text-center">
-                            Lansdowne Law Center has been a cornerstone of the Lansdowne legal community, combining over 100 years of experience serving our clients.
-                        </p>
+                        <h1 className="text-4xl md:text-5xl font-bold font-serif tracking-tight text-primary mb-6">
+                            About Our Firm
+                        </h1>
                     </ScrollReveal>
-                    <p className="mt-6">
-                        We are a fully-staffed general practice firm dedicated to representing individuals, small businesses, proprietorships, corporations, and insurance companies with integrity and professionalism.
-                    </p>
-                    <p>
-                        Our firm is proud to represent the CLC Prepaid Legal Services Plan, covering many large employers such as Verizon, SAP, Kimberly-Clark, and Mercy Health Systems. Additionally, we are on the list of approved lawyers for the Military Officers Association of America.
-                    </p>
+                    <div className="prose prose-lg dark:prose-invert text-muted-foreground leading-loose">
+                        <ScrollReveal delay={0.2}>
+                            <p className="text-xl font-medium text-foreground">
+                                Lansdowne Law Center has been a cornerstone of the Lansdowne legal community, combining over 100 years of experience serving our clients.
+                            </p>
+                        </ScrollReveal>
+                        <ScrollReveal delay={0.3}>
+                            <p>
+                                We are a fully-staffed general practice firm dedicated to representing individuals, small businesses, proprietorships, corporations, and insurance companies with integrity and professionalism.
+                            </p>
+                            <p>
+                                Our firm is proud to represent the CLC Prepaid Legal Services Plan, covering many large employers such as Verizon, SAP, Kimberly-Clark, and Mercy Health Systems. Additionally, we are on the list of approved lawyers for the Military Officers Association of America.
+                            </p>
+                        </ScrollReveal>
+                    </div>
                 </div>
             </div>
 

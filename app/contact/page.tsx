@@ -63,6 +63,21 @@ export default function ContactPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
                 {/* Contact Info */}
                 <div className="lg:col-span-1 space-y-8">
+                    {/* Office Image Placeholder */}
+                    <div className="relative aspect-video w-full rounded-lg overflow-hidden shadow-md bg-slate-100 mb-6">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-200 text-slate-500 p-4 text-center">
+                            <span className="text-3xl mb-2">🏢</span>
+                            <span className="font-serif font-bold text-sm">Office Exterior / Upper Darby</span>
+                            <span className="text-xs mt-1 opacity-75">(Place image here)</span>
+                        </div>
+                        {/* <Image
+                            src="/images/office-exterior.jpg"
+                            alt="Lansdowne Law Center Building"
+                            fill
+                            className="object-cover"
+                        /> */}
+                    </div>
+
                     <Card className="border-t-4 border-t-primary shadow-sm">
                         <CardContent className="p-8 space-y-8">
                             <div className="flex items-start gap-4">

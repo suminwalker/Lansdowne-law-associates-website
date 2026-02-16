@@ -55,6 +55,22 @@ export default function PracticesPage() {
         <div className="container py-12 md:py-20 px-4 max-w-5xl mx-auto">
             <ScrollReveal className="space-y-6 text-center mb-16">
                 <h1 className="text-4xl md:text-5xl font-bold font-serif tracking-tight text-primary">Practice Areas</h1>
+
+                {/* Hero Banner Image Placeholder */}
+                <div className="relative w-full aspect-[21/9] md:aspect-[3/1] rounded-lg overflow-hidden shadow-lg bg-slate-100 my-8">
+                    <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-200 text-slate-500 p-6 text-center">
+                        <span className="text-4xl mb-4">⚖️</span>
+                        <span className="font-serif font-bold text-lg">Delaware County Courthouse / Drexel Hill</span>
+                        <span className="text-sm mt-2 opacity-75">(Place image here)</span>
+                    </div>
+                    {/* <Image
+                        src="/images/delaware-county-courthouse.jpg"
+                        alt="Delaware County Courthouse"
+                        fill
+                        className="object-cover"
+                    /> */}
+                </div>
+
                 <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
                     Lansdowne Law Center offers comprehensive legal support across a broad range of practice areas from Contract Litigation, to Family Law, to Estate Planning and Administration, to Criminal Defense and DUI Defense, to Zoning.
                 </p>

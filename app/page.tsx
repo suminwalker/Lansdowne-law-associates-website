@@ -51,9 +51,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Intro/Trust Signals */}
-      <section className="py-20 bg-white">
-        <div className="container px-4 max-w-[95%] mx-auto">
+      {/* Intro/Trust Signals - Parallax Background */}
+      <section className="relative py-24 bg-fixed bg-cover bg-center" style={{ backgroundImage: "url('/images/philly-art-museum.jpg')" }}>
+        {/* Placeholder for now - using a grey background in case image is missing, but style above sets it */}
+        <div className="absolute inset-0 bg-slate-200 -z-20" />
+
+        {/* Heavy White Overlay for Text Readability */}
+        <div className="absolute inset-0 bg-white/95 z-0" />
+
+        <div className="relative z-10 container px-4 max-w-[95%] mx-auto">
           <ScrollReveal className="text-center mb-16 space-y-4">
             <h2 className="text-3xl font-bold font-serif text-foreground">Why Choose Lansdowne Law Center?</h2>
             <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
