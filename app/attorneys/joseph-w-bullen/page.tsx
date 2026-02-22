@@ -25,17 +25,13 @@ export default function JosephBullenBioPage() {
                 <div className="md:col-span-4 space-y-8">
                     <ScrollReveal delay={0.1}>
                         <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg shadow-lg bg-slate-100">
-                            {/* Placeholder until real image is added */}
-                            <div className="absolute inset-0 flex items-center justify-center bg-slate-200 text-slate-400">
-                                <span className="text-6xl font-serif font-bold opacity-20">JWB</span>
-                            </div>
-                            {/* Uncomment when image is available at public/images/joseph-w-bullen.jpg */}
-                            {/* <Image
+                            <Image
                                 src="/images/joseph-w-bullen.jpg"
                                 alt="Joseph W. Bullen, III"
                                 fill
                                 className="object-cover"
-                            /> */}
+                                style={{ objectPosition: '39% 50%' }}
+                            />
                         </div>
                     </ScrollReveal>
 

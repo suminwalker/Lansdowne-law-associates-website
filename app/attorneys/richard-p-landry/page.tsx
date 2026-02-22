@@ -1,5 +1,5 @@
 import { Metadata } from "next"
-// import Image from "next/image"
+import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Mail, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -25,17 +25,12 @@ export default function RichardLandryBioPage() {
                 <div className="md:col-span-4 space-y-8">
                     <ScrollReveal delay={0.1}>
                         <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg shadow-lg bg-slate-100">
-                            {/* Placeholder until real image is added */}
-                            <div className="absolute inset-0 flex items-center justify-center bg-slate-200 text-slate-400">
-                                <span className="text-6xl font-serif font-bold opacity-20">RPL</span>
-                            </div>
-                            {/* Uncomment when image is available at public/images/richard-p-landry.jpg */}
-                            {/* <Image
+                            <Image
                                 src="/images/richard-p-landry.jpg"
                                 alt="Richard P. Landry"
                                 fill
                                 className="object-cover"
-                            /> */}
+                            />
                         </div>
                     </ScrollReveal>
 

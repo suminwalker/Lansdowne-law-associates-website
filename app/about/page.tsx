@@ -12,11 +12,11 @@ export default function AboutPage() {
     return (
         <div className="container py-12 md:py-20 px-4 max-w-6xl mx-auto">
             {/* Firm History - Split Layout */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start mb-20">
                 <ScrollReveal>
                     <div className="relative aspect-square md:aspect-[4/5] w-full rounded-lg overflow-hidden shadow-xl bg-slate-100">
                         <Image
-                            src="/images/lansdowne-theater.png" 
+                            src="/images/lansdowne-theater.png"
                             alt="Historic Lansdowne"
                             fill
                             className="object-cover"
@@ -30,14 +30,22 @@ export default function AboutPage() {
                             About Our Firm
                         </h1>
                     </ScrollReveal>
+                    {/* Lead Text */}
                     <div className="prose prose-lg dark:prose-invert text-muted-foreground leading-loose">
                         <ScrollReveal delay={0.2}>
                             <p className="text-xl font-medium text-foreground">
                                 Lansdowne Law Center has been a cornerstone of the Lansdowne legal community, combining over 100 years of experience serving our clients.
                             </p>
                         </ScrollReveal>
+                    </div>
+
+                    {/* Hard Spacer - Outside of prose container */}
+                    <div className="h-32 w-full bg-transparent" aria-hidden="true" />
+
+                    {/* Body Text */}
+                    <div className="prose prose-lg dark:prose-invert text-muted-foreground leading-loose">
                         <ScrollReveal delay={0.3}>
-                            <p>
+                            <p className="mb-6">
                                 We are a fully-staffed general practice firm dedicated to representing individuals, small businesses, proprietorships, corporations, and insurance companies with integrity and professionalism.
                             </p>
                             <p>
@@ -64,8 +72,40 @@ export default function AboutPage() {
                         <ScrollReveal key={name} delay={index * 0.1}>
                             <div className="flex flex-col items-center text-center p-6 bg-slate-50 border rounded-lg h-full">
                                 {/* Placeholder Avatar */}
-                                <div className="w-32 h-32 bg-slate-200 rounded-full mb-6 flex items-center justify-center text-slate-400 text-3xl font-serif font-bold">
-                                    {name.split(" ").map(n => n[0]).join("")}
+                                <div className="w-32 h-32 bg-slate-200 rounded-full mb-6 relative overflow-hidden flex items-center justify-center text-slate-400 text-3xl font-serif font-bold">
+                                    {name === "Joseph W. Bullen" ? (
+                                        <Image
+                                            src="/images/joseph-w-bullen.jpg"
+                                            alt={name}
+                                            fill
+                                            className="object-cover"
+                                            style={{ objectPosition: '39% 50%' }}
+                                        />
+                                    ) : name === "Richard P. Landry" ? (
+                                        <Image
+                                            src="/images/richard-p-landry.jpg"
+                                            alt={name}
+                                            fill
+                                            className="object-cover"
+                                        />
+                                    ) : name === "John R. Walker" ? (
+                                        <Image
+                                            src="/images/john-r-walker.jpg"
+                                            alt={name}
+                                            fill
+                                            className="object-cover"
+                                        />
+                                    ) : name === "Harry Kleinman" ? (
+                                        <Image
+                                            src="/images/harry-kleinman.jpg"
+                                            alt={name}
+                                            fill
+                                            className="object-cover"
+                                            style={{ objectPosition: '40% 27%' }}
+                                        />
+                                    ) : (
+                                        name.split(" ").map(n => n[0]).join("")
+                                    )}
                                 </div>
                                 {name === "Joseph W. Bullen" ? (
                                     <Link href="/attorneys/joseph-w-bullen" className="hover:underline hover:text-primary/80 transition-colors">
